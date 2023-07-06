@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ],
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "BarCodeScan",
+    "slug": "BarCodeScan"
+  }
+}
